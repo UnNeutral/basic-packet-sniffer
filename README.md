@@ -20,7 +20,7 @@ Hex Dump of Payload: Provides a formatted hex dump of the packet payload for dee
 Requirements:
 Python 3.x
 Elevated privileges (root access) to run raw sockets.
-
+The code won't work on Windows because it uses AF_PACKET sockets, which are specific to Linux for capturing raw Ethernet frames.
 
 Notes:
 Ensure you have sufficient privileges to execute raw socket operations.
