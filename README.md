@@ -24,4 +24,4 @@ The code won't work on Windows because it uses AF_PACKET sockets, which are spec
 
 Notes:
 Ensure you have sufficient privileges to execute raw socket operations.
-This tool is for educational and debugging purposes. Use it responsibly.
+This tool is for educational and debugging purposes.
